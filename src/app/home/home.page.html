@@ -1,20 +1,16 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title>Amira's Car</ion-title>
   </ion-toolbar>
 </ion-header>
+<ion-content class="ion-no-padding">
+  <h2>Aktuális frekvencia: {{ frequency }} Hz</h2>
+  <ion-button (click)="startToneCycle()">Start with {{frequencyIncrement}}</ion-button>
+</ion-content>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content class="ion-padding">
+  <ion-button (mousedown)="playTone(20)" (mouseup)="stopTone()">20hz</ion-button>
+  <ion-button (mousedown)="playTone(1500)" (mouseup)="stopTone()">1500hz</ion-button>
+  <ion-button (mousedown)="playTone(2000)" (mouseup)="stopTone()">2000hz</ion-button>
+  <ion-button (mousedown)="playTone(2500)" (mouseup)="stopTone()">2500Hz</ion-button>
 </ion-content>
