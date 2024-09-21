@@ -1,0 +1,7 @@
+{
+  "name": "rc-car-2",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
