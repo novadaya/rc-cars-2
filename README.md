@@ -6,3 +6,5 @@ https://github.com/monsterlessonsacademy/monsterlessonsacademy/tree/440-angular-
 
 https://www.designerkaran.com/2023/05/part-8-my-first-angular-15-ionic-7-app.html?m=1
 ez a legjobb
+
+https://hu.pinterest.com/pin/774124929611990/
